@@ -43,3 +43,16 @@ ownership.
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.
+
+## Instructions
+
+You *have to refactor the code and add tests* **before** implementing the "conjured" feature. Doing
+otherwize may be dangerous to your health.
+
+In addition, we have a "Golden Master" for you. Executing the main entry point should produce *exactly*
+the standard output matching the text in golden-master/expected-output.txt. It's advised you write
+a small piece of code to help you check that first.
+
+Then use whatever test framework you want to add missing tests, one piece at a time. If you have refactoring
+features in your IDE, use them :)
+
