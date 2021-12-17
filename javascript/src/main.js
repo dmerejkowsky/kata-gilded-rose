@@ -1,4 +1,3 @@
-
 const { Shop, Item } = require("../src/gilded_rose");
 
 const items = [
@@ -15,11 +14,10 @@ const items = [
   new Item("Conjured Mana Cake", 3, 6),
 ];
 
-const days = Number(process.argv[2]) || 2;
+const days = 30;
 const gildedRose = new Shop(items);
 
-console.log("OMGHAI!");
-for (let day = 0; day < days; day++) {
+for (let day = 0; day <= days; day++) {
   console.log(`\n-------- day ${day} --------`);
   console.log("name, sellIn, quality");
   items.forEach(item => console.log(`${item.name}, ${item.sellIn}, ${item.quality}`));
