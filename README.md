@@ -6,6 +6,8 @@ Inspired by:
 
 https://github.com/emilybache/GildedRose-Refactoring-Kata
 
+*Reminder: read **the full README** before starting to write code!*
+
 ## Specifications
 
 
@@ -46,13 +48,17 @@ legendary item and as such its Quality is 80 and it never alters.
 
 ## Instructions
 
-You *have to refactor the code and add tests* **before** implementing the "conjured" feature. Doing
-otherwize may be dangerous to your health.
+1. Choose a programming language and a test framework you know well and fork this repo.
 
-In addition, we have a "Golden Master" for you. Executing the main entry point should produce *exactly*
-the standard output matching the text in golden-master/expected-output.txt. It's advised you write
-a small piece of code to help you check that first.
+2. Write a small pice of code to run  the main entry point and check it produces *exactly*
+the standard output matching the text in golden-master/expected-output.txt. It may be possible to to use
+the test framework to do that.
 
-Then use whatever test framework you want to add missing tests, one piece at a time. If you have refactoring
-features in your IDE, use them :)
+3. Execute a series of *small* refactorings, while *adding* more tests in the process. If you have access to
+refactoring features from your IDE, use them.
+
+4. Make a commit at the end of each refactoring
+
+5. When the production code is clean enough and you have enough tests (and **only then**), implement the
+"conjured items" feature.
 
