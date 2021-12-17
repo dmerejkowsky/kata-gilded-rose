@@ -1,3 +1,5 @@
+/* Do not touch this file */
+
 package com.gildedrose;
 
 public class Item {

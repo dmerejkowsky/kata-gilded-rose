@@ -1,4 +1,5 @@
-﻿namespace GildedRoseKata
+﻿// Do not touch this file
+namespace GildedRoseKata
 {
     public class Item
     {

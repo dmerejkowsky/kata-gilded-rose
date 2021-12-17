@@ -10,6 +10,10 @@ namespace GildedRoseKata
             this.Items = Items;
         }
 
+        /*
+         /!\ Do not change code above this line /!\
+         */
+
         public void UpdateQuality()
         {
             for (var i = 0; i < Items.Count; i++)

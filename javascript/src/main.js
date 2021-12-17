@@ -1,3 +1,4 @@
+// Do not change this file
 const { Shop, Item } = require("../src/gilded_rose");
 
 const items = [
