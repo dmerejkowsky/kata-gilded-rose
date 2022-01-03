@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gilded_rose"
+version = "0.1.0"
+description = "The Gilded Rose Kata"
+authors = ["Dimitri Merejkowsky <dimitri@dmerej.info>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
