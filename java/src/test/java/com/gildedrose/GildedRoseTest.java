@@ -7,11 +7,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class GildedRoseTest {
 
     @Test
-    void foo() {
-        Item[] items = new Item[] { new Item("foo", 20, 10) };
-        GildedRose app = new GildedRose(items);
-        app.updateQuality();
-        assertEquals(9, app.items[0].quality);
+    public void simpleItem() {
+        Item foo = new Item("foo", 20, 10);
+        Item[] items = new Item[] { foo  };
+        GildedRose gildedRose = new GildedRose(items);
+
+        gildedRose.updateQuality();
+
+        assertEquals(19,foo.sellIn);
+        assertEquals(9, foo.quality);
     }
 
 }
