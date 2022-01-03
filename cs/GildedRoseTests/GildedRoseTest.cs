@@ -9,10 +9,13 @@ namespace GildedRoseTests
         [Fact]
         public void defaultItem()
         {
-            IList<Item> Items = new List<Item> { new Item { Name = "default", SellIn = 20, Quality = 10 } };
-            GildedRose app = new GildedRose(Items);
-            app.UpdateQuality();
-            Assert.Equal(9, Items[0].Quality);
+            Item defaultItem = new Item { Name = "default", SellIn = 20, Quality = 10 };
+            IList<Item> Items = new List<Item> { defaultItem };
+            GildedRose shop = new GildedRose(Items);
+
+            shop.UpdateQuality();
+            Assert.Equal(19, defaultItem.SellIn);
+            Assert.Equal(9, defaultItem.Quality);
         }
     }
 }
