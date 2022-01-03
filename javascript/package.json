@@ -20,7 +20,8 @@
     "url": "https://github.com/emilybache/GildedRose-Refactoring-Kata/issues"
   },
   "scripts": {
-      "run:app": "node src/main.js"
+      "run:app": "node src/main.js",
+      "test": "mocha test/*.js"
   },
   "homepage": "https://github.com/emilybache/GildedRose-Refactoring-Kata",
   "devDependencies": {
