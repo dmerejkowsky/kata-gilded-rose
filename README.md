@@ -50,7 +50,7 @@ legendary item and as such its Quality is 80 and it never alters.
 
 1. Choose a programming language and a test framework you know well and fork this repo.
 
-2. Write a small pice of code to run  the main entry point and check it produces *exactly*
+2. Write a small piece of code to run  the main entry point and check it produces *exactly*
 the standard output matching the text in golden-master/expected-output.txt. It may be possible to to use
 the test framework to do that.
 
