@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Gilded Rose kata in Javascript with Mocha",
   "scripts": {
-    "run:app": "node src/main.js",
     "test": "mocha test/*.js"
   },
   "repository": {
