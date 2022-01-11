@@ -1,15 +1,9 @@
 # JavaScript application
 
-Run me with:
+You can run the tests with:
 
 ```
 yarn
-yarn run:app
-```
-
-Run tests with:
-
-```
 yarn test
 ```
 

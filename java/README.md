@@ -1,9 +1,7 @@
 # Java application
 
-Run me with:
+You can run the tests with:
 
 ```
-./mvnw compile
-./mvnw exec:java  -Dexec.mainClass=com.gildedrose.Application
+./mvnw test
 ```
-
