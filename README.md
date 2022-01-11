@@ -26,7 +26,8 @@ Pretty simple, right? Well this is where it gets interesting:
 
 * Once the sell by date has passed, Quality degrades twice as fast
 * The Quality of an item is never negative
-* "Aged Brie" actually increases in Quality the older it gets (2 points each day)
+* "Aged Brie" actually increases in Quality the older it gets (1 point
+  each day until sell in date, then 2 points each day)
 * The Quality of an item is never more than 50
 * "Sulfuras", being a legendary item, never has to be sold or decreases in Quality
 * "Backstage passes", like aged brie, increases in Quality as its SellIn value approaches, but:
