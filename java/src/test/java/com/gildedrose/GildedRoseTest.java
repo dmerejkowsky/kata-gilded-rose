@@ -40,30 +40,31 @@ class GildedRoseTest {
         GildedRose app = new GildedRose(items);
 
         int days = 30;
-        List actualLog = new ArrayList<String>();
+        StringBuilder actualLog = new StringBuilder();
         for (int i = 0; i <= days; i++) {
-            actualLog.add("-------- day " + i + " --------");
-            actualLog.add("name, sellIn, quality");
+            actualLog.append("-------- day " + i + " --------\n");
+            actualLog.append("name, sellIn, quality\n");
             for (Item item : items) {
-                actualLog.add(item.toString());
+                actualLog.append(item.toString());
+                actualLog.append("\n");
             }
             app.updateQuality();
         }
 
-        List expectedLog = new ArrayList<String>();
+        StringBuilder expectedLog = new StringBuilder();
         String workingDir = System.getProperty("user.dir");
         String expectedPath = workingDir + "/../golden-master/expected-output.txt";
         File expectedFile = new File(expectedPath);
         FileReader reader = new FileReader(expectedFile);
         BufferedReader bufferedReader = new BufferedReader(reader);
-        StringBuffer stringBuffer = new StringBuffer();
         String line;
         while ((line = bufferedReader.readLine()) != null) {
             if(! line.isEmpty()) {
-                expectedLog.add(line);
+                expectedLog.append(line);
+                expectedLog.append("\n");
             }
         }
-        assertEquals(expectedLog, actualLog);
+        assertEquals(expectedLog.toString(), actualLog.toString());
     }
 
 
