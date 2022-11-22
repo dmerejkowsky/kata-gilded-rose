@@ -61,3 +61,11 @@ refactoring features from your IDE, use them.
 5. When the production code is clean enough and you have enough tests (and **only then**), implement the
 "conjured items" feature.
 
+## For a little more excitement
+
+You may want to try this kata using the `test && commit || revert` technique.
+
+After each change, run the tests. If they pass, make a commit, if they fail,
+revert all changes.
+
+Have fun!
