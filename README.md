@@ -39,10 +39,8 @@ We have recently signed a supplier of conjured items. This requires an update to
 
 * "Conjured" items degrade in Quality twice as fast as normal items
 
-Feel free to make any changes to the UpdateQuality method and add any new code as long as everything
-still works correctly. However, do not alter the Item class or Items property as those belong to the
-goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code
-ownership.
+Feel free to make any changes to the production code as long as everything
+still works correctly
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.

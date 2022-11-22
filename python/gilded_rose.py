@@ -15,8 +15,6 @@ class GildedRose(object):
     def __init__(self, items):
         self.items = items
 
-    # /!\ Do not change code above this line /!\ #
-
     def update_quality(self):
         for item in self.items:
             if (
