@@ -1,7 +1,6 @@
-# Python application
+# Python
 
-You can run the tests with `pytest`
+Install `pytest`
 
-
-
-
+Run the tests with `pytest -vv` so as to see the full diff when
+the golden master fails
