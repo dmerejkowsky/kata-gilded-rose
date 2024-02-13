@@ -47,7 +47,3 @@ class GildedRose(object):
                 else:
                     if item.quality < 50:
                         item.quality = item.quality + 1
-
-
-if __name__ == "__main__":
-    main()
