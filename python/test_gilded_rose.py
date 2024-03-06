@@ -41,3 +41,9 @@ def test_gloden_master():
     expected_log = [x for x in expected_log if x]
 
     assert actual_log == expected_log
+
+
+if __name__ == "__main__":
+    # In case pytest is not easy to install
+    test_default_item()
+    test_gloden_master()
